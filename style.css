@@ -1,0 +1,35 @@
+@font-face {
+    font-family: NotoSansKR;
+    src: url(./Fonts/NotoSansKR-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  NotoSansKR, Arial, sans-serif;
+}
+
+header{
+    background-color: #050d19;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: auto;
+    width: 4rem;
+}
+
+header ul{
+    color: #b89569;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+}
